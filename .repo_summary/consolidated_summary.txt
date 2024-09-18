@@ -1,24 +1,37 @@
-Here's a summary of my project, Pyautogui_Game_Analyzer:
+Here's the summary of your project:
 
 1. **Project Name:** Pyautogui_Game_Analyzer
-2. **Short Description:** A powerful tool that harnesses the power of pyautogui to analyze game activity in real-time.
-3. **Overall Description:** This project is an innovative application that utilizes pyautogui's capabilities to track mouse movements, capture pixel colors, and take screenshots in real-time, providing a comprehensive analysis of game activity. With its user-friendly interface, users can monitor their gameplay experience like never before. I built this tool with gamers in mind, aiming to help them improve their skills, detect glitches, or simply enjoy their gaming sessions more effectively.
-4. **Main Purpose:** The primary purpose of Pyautogui_Game_Analyzer is to offer a detailed analysis of game activity, allowing users to refine their gameplay strategies, identify areas for improvement, and enhance their overall gaming experience.
+2. **Short Description:** A PyQt6-based graphical user interface application that utilizes pyautogui and mss to analyze game-related data such as mouse position, RGB values, screen resolution, and capture screenshots.
+3. **Overall Description:** The Pyautogui_Game_Analyzer project is a desktop application designed to provide users with real-time information about their game sessions. It uses the PyQt6 framework for creating the graphical user interface and leverages pyautogui and mss libraries for capturing mouse position, RGB values, screen resolution, and taking screenshots. The application features a simple and intuitive design, allowing users to easily monitor their game-related data while playing.
+4. **Main Purpose:** The primary purpose of this project is to provide an interactive tool for gamers to track and analyze their in-game performance, behavior, and preferences.
 5. **Key Technologies:**
-	* pyautogui (for mouse movement tracking and screenshot capturing)
-	* PyQt6 (for building the user-friendly graphical interface)
-	* mss (for faster screenshots and pixel color analysis)
+   - PyQt6
+   - Pyautogui
+   - Mss
 6. **Unique Features:**
-	* Real-time mouse position tracking
-	* Pixel color analysis with RGB and hex conversion
-	* Screenshot preview with live updates
+   - Real-time mouse position tracking
+   - RGB value analysis at the mouse cursor location
+   - Automatic screenshot capturing with customizable settings
 7. **Future Improvements:**
-	- Integrate machine learning algorithms to analyze player behavior and provide personalized feedback
-	- Implement a more sophisticated screenshot capturing system for higher-quality images
-8. **Personal Notes:** I'm super excited about this project, as it has the potential to revolutionize how gamers approach their gameplay experience. I'd love to see users share their insights and feedback on improving the tool!
-9. **GitHub Tags:** Pyautogui Game Analyzer, Game Analysis Tool, Real-time Screenshot Capturing, PyQt6 Application, Machine Learning Integration, Gaming Insights, User Feedback Platform
+   - Integration of machine learning algorithms to analyze user behavior and game-related data
+   - Support for multiple games and platforms (e.g., Windows, macOS, Linux)
+   - Customizable dashboard and notification system
+8. **Personal Notes:** This project is an experiment in combining GUI development with system-level programming using Python libraries.
+9. **GitHub Tags:** pyautogui, PyQt6, mss, game_analysis, screenshot_capture, rgb_value_analysis, mouse_position_tracking, desktop_application, python_libs
+10. **Installable Modules:** sys, mss, PyQt6, pyautogui
+11. **Suggested Folder Names:** src, gui, lib, data, resources, screenshots
+12. **Root Project Folder Name Suggestions:** PyautoguiGameAnalyzer, GameAnalyzerTool, GUIAnalyzerApp
 
-# Extractable Variables
-SHORT_DESCRIPTION = "A powerful tool that harnesses the power of pyautogui to analyze game activity in real-time."
-OVERALL_DESCRIPTION = "This project is an innovative application that utilizes pyautogui's capabilities to track mouse movements, capture pixel colors, and take screenshots in real-time, providing a comprehensive analysis of game activity. With its user-friendly interface, users can monitor their gameplay experience like never before. I built this tool with gamers in mind, aiming to help them improve their skills, detect glitches, or simply enjoy their gaming sessions more effectively."
-GITHUB_TAGS = "Pyautogui Game Analyzer, Game Analysis Tool, Real-time Screenshot Capturing, PyQt6 Application, Machine Learning Integration, Gaming Insights, User Feedback Platform"
+# Extracted Variables:
+PROJECT_NAME = "Pyautogui_Game_Analyzer"
+SHORT_DESCRIPTION = "A PyQt6-based graphical user interface application that utilizes pyautogui and mss to analyze game-related data such as mouse position, RGB values, screen resolution, and capture screenshots."
+OVERALL_DESCRIPTION = "The Pyautogui_Game_Analyzer project is a desktop application designed to provide users with real-time information about their game sessions. It uses the PyQt6 framework for creating the graphical user interface and leverages pyautogui and mss libraries for capturing mouse position, RGB values, screen resolution, and taking screenshots. The application features a simple and intuitive design, allowing users to easily monitor their game-related data while playing."
+MAIN_PURPOSE = "The primary purpose of this project is to provide an interactive tool for gamers to track and analyze their in-game performance, behavior, and preferences."
+KEY_TECHNOLOGIES = "PyQt6, Pyautogui, Mss"
+UNIQUE_FEATURES = "Real, time mouse position tracking, RGB value analysis at the mouse cursor location, Automatic screenshot capturing with customizable settings"
+FUTURE_IMPROVEMENTS = "Integration of machine learning algorithms to analyze user behavior and game, related data, Support for multiple games and platforms (e.g., Windows, macOS, Linux), Customizable dashboard and notification system"
+PERSONAL_NOTES = "This project is an experiment in combining GUI development with system-level programming using Python libraries."
+GITHUB_TAGS = "pyautogui, PyQt6, mss, game_analysis, screenshot_capture, rgb_value_analysis, mouse_position_tracking, desktop_application, python_libs"
+INSTALLABLE_MODULES = "mss, PyQt6, pyautogui"
+SUGGESTED_FOLDER_NAMES = "src, gui, lib, data, resources, screenshots"
+ROOT_PROJECT_FOLDER_NAME_SUGGESTIONS = "PyautoguiGameAnalyzer, GameAnalyzerTool, GUIAnalyzerApp"
